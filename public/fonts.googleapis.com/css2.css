@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url("/fonts.gstatic.com/s/firacode/v27/uU9NCBsR6Z2vfE9aq3bh3dSDqFGedA.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts.gstatic.com/s/lobster/v32/neILzCirqoswsqX9zoKmM4MwWJU.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Righteous";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts.gstatic.com/s/righteous/v18/1cXxaUPXBpj2rGoU7C9WiHGFq8Kk1Q.woff2")
+    format("woff2");
+}

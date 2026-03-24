@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Not Found | R Squared AI</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#06080e" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f7f8fb" media="(prefers-color-scheme: light)">
+
+<!-- Google Analytics — replace GA_MEASUREMENT_ID with your actual ID -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID');
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<script>(function(){var t=localStorage.getItem('r2-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)})()</script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --brand-blue:#2644A0;--brand-blue-light:#3458C0;
+  --brand-orange:#E07A1E;--brand-orange-light:#F08A2E;
+  --bg:#06080e;--text:#e6e8f0;--text-secondary:#8890ac;--text-muted:#565e7a;
+  --border:#1a1f35;--glow:rgba(38,68,160,0.12);--grain-opacity:.022;
+  --serif:'Instrument Serif',Georgia,serif;--sans:'DM Sans',-apple-system,sans-serif;--mono:'JetBrains Mono',monospace
+}
+@media(prefers-color-scheme:light){
+:root:not([data-theme="dark"]){
+  --brand-blue:#1E3A8A;--brand-blue-light:#2B4FC7;
+  --brand-orange:#C55D0C;--brand-orange-light:#D86E1A;
+  --bg:#f7f8fb;--text:#151829;--text-secondary:#484e68;--text-muted:#8890a8;
+  --border:#dce0ea;--glow:rgba(30,58,138,0.06);--grain-opacity:0
+}
+}
+:root[data-theme="light"]{
+  --brand-blue:#1E3A8A;--brand-blue-light:#2B4FC7;
+  --brand-orange:#C55D0C;--brand-orange-light:#D86E1A;
+  --bg:#f7f8fb;--text:#151829;--text-secondary:#484e68;--text-muted:#8890a8;
+  --border:#dce0ea;--glow:rgba(30,58,138,0.06);--grain-opacity:0
+}
+.theme-toggle{position:fixed;bottom:1.25rem;left:1.25rem;z-index:101;display:flex;align-items:center;gap:0;background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:3px;box-shadow:0 2px 12px rgba(0,0,0,0.15);transition:all .3s}
+.theme-toggle button{display:flex;align-items:center;justify-content:center;width:30px;height:30px;border:none;background:transparent;border-radius:7px;cursor:pointer;color:var(--text-muted);font-size:.82rem;transition:all .2s;padding:0;line-height:1}
+.theme-toggle button:hover{color:var(--text-secondary)}
+.theme-toggle button.active{background:var(--border);color:var(--text)}
+.theme-toggle button svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:2rem;-webkit-font-smoothing:antialiased;overflow:hidden}
+body::before{content:'';position:fixed;top:30%;left:50%;transform:translate(-50%,-50%);width:600px;height:600px;background:radial-gradient(circle,var(--glow) 0%,transparent 60%);pointer-events:none}
+body::after{content:'';position:fixed;top:0;left:0;right:0;bottom:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");opacity:var(--grain-opacity);pointer-events:none;z-index:9999}
+.content{position:relative;z-index:2;max-width:520px}
+.error-code{font-family:var(--mono);font-size:clamp(5rem,12vw,8rem);font-weight:600;letter-spacing:-.04em;line-height:1;margin-bottom:1rem;background:linear-gradient(135deg,var(--brand-blue),var(--brand-orange));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+h1{font-family:var(--serif);font-size:clamp(1.5rem,3vw,2rem);font-weight:400;font-style:italic;margin-bottom:1rem;color:var(--text)}
+p{font-size:.95rem;color:var(--text-secondary);line-height:1.65;margin-bottom:2rem}
+.actions{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:.5rem;padding:.75rem 1.8rem;border-radius:10px;font-family:var(--sans);font-size:.88rem;font-weight:600;text-decoration:none;transition:all .25s;cursor:pointer;border:none}
+.btn-primary{background:var(--brand-blue);color:#fff;border:1px solid var(--brand-blue-light)}
+.btn-primary:hover{background:var(--brand-blue-light);transform:translateY(-2px);box-shadow:0 8px 24px rgba(38,68,160,0.3)}
+.btn-secondary{background:transparent;color:var(--text-secondary);border:1px solid var(--border)}
+.btn-secondary:hover{border-color:var(--text-muted);color:var(--text)}
+.logo{margin-top:3rem;font-family:var(--sans);font-weight:700;font-size:.85rem;color:var(--text-muted);text-decoration:none;display:flex;align-items:center;gap:.5rem;transition:color .2s}
+.logo:hover{color:var(--text-secondary)}
+.logo .mark{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;background:var(--brand-blue);border-radius:6px;font-family:var(--mono);font-size:.65rem;font-weight:700;color:#fff}
+</style>
+</head>
+<body>
+<div class="content">
+  <div class="error-code">404</div>
+  <h1>This page doesn't exist.</h1>
+  <p>The page you're looking for may have been moved, renamed, or might never have existed. Either way, let's get you back on track.</p>
+  <div class="actions">
+    <a href="/" class="btn btn-primary">Back to Home</a>
+    <a href="https://www.linkedin.com/company/r-squared-ai" target="_blank" rel="noopener" class="btn btn-secondary">Find Us on LinkedIn</a>
+  </div>
+</div>
+<a href="/" class="logo">
+  <span class="mark">R²</span>
+  R Squared AI
+</a>
+<div class="theme-toggle" id="themeToggle" aria-label="Theme switcher">
+  <button data-theme-set="light" title="Light mode" aria-label="Light mode"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
+  <button data-theme-set="auto" title="System theme" aria-label="System theme"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></button>
+  <button data-theme-set="dark" title="Dark mode" aria-label="Dark mode"><svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
+</div>
+<script>
+(function(){
+  var toggle=document.getElementById('themeToggle');if(!toggle)return;
+  var btns=toggle.querySelectorAll('button'),root=document.documentElement;
+  function apply(m){
+    btns.forEach(function(b){b.classList.toggle('active',b.dataset.themeSet===m)});
+    if(m==='auto'){root.removeAttribute('data-theme');localStorage.removeItem('r2-theme')}
+    else{root.setAttribute('data-theme',m);localStorage.setItem('r2-theme',m)}
+  }
+  apply(localStorage.getItem('r2-theme')||'auto');
+  btns.forEach(function(b){b.addEventListener('click',function(){apply(b.dataset.themeSet)})});
+})();
+</script>
+</body>
+</html>

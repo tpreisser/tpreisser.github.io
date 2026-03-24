@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+<title id="title">HG Oil well icon</title>
+<desc id="desc">A padded blue oil-drop outline with a simplified well structure inside.</desc>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M64 17c-18 17-34 36-34 59 0 20 15 35 34 35 18 0 34-15 34-35 0-23-16-42-34-59Z" stroke="#0e4bb5" stroke-width="5.5"/>
+<path d="M49 93V41l11-11" stroke="#0e4bb5" stroke-width="5.5"/>
+<path d="M79 93V27" stroke="#0e4bb5" stroke-width="5.5"/>
+<path d="M49 41h22" stroke="#0e4bb5" stroke-width="5.5"/>
+<path d="M58 56h13" stroke="#0e4bb5" stroke-width="5.5"/>
+<path d="M67 93 79 27" stroke="#0e4bb5" stroke-width="5.5"/>
+</g>
+</svg>
