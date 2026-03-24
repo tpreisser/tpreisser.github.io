@@ -4,9 +4,21 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://tylerpreisser.com"),
   title: "Tyler Preisser - AI Product & Automation Systems",
   description:
     "Tyler Preisser builds AI agents, automation systems, and product workflows through R Squared AI and Preisser Solutions.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Tyler Preisser - AI Product & Automation Systems",
+    description:
+      "Tyler Preisser builds AI agents, automation systems, and product workflows through R Squared AI and Preisser Solutions.",
+    url: "https://tylerpreisser.com",
+    siteName: "Tyler Preisser",
+    type: "website",
+  },
   icons: {
     icon: "/tyler-favicon.png",
     shortcut: "/tyler-favicon.png",
