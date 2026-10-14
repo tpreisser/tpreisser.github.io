@@ -111,7 +111,7 @@ npx wrangler pages deploy out --project-name tylerpreisser --branch=main   # pub
 Connected globally — no per-repo `.mcp.json` wiring needed for either.
 
 ## Settled decisions
-See `DECISIONS/` (this repo) and `~/.claude-shared/DECISIONS/` (global; wins on conflict).
+See `DECISIONS/` (this repo).
 Conformance to an Accepted ADR is never a defect — see `DECISIONS/README.md` for the full
 protocol (immutability, superseding, "Decision Concerns" for objections). When the owner settles
 a question, write the ADR immediately as `Status: Accepted` at the next free `NNNN`; fix a bad

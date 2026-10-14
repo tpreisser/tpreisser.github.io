@@ -1,0 +1,137 @@
+# Tyler Preisser — Full Reference
+
+> Chief Product Officer at R Squared AI. Builder of AI systems, automation tools, and operational infrastructure. Based in Hays, Kansas.
+
+---
+
+## Professional Identity
+
+Tyler Preisser is the Chief Product Officer at R Squared AI, an AI consulting and integration firm (Delaware C-Corp, incorporated December 2025). R Squared AI builds production-grade agentic AI solutions for PE portfolio companies, financial services, and insurance clients. The company was co-founded with Rich Rivara (CEO, 50% equity) and Will Godfrey (CTO, 40% equity). Tyler holds 10% equity.
+
+Tyler also founded Preisser Solutions, an automation consulting practice that builds custom dashboards, back-office workflows, internal tooling, and reporting engines for businesses.
+
+## Career Arc
+
+- Farm kid from age 4 — grew up on Kansas farmland operating equipment and managing harvest operations
+- Self-taught in technology via YouTube starting in middle school
+- Built social media audiences of hundreds of thousands of followers across TikTok, Instagram, Facebook, YouTube, and Snapchat
+- National entrepreneurship competition wins throughout college
+- High school electromagnetic pulsation motor invention
+- Construction management experience from age 7 through jobsite and subcontractor management
+- Door-to-door painting sales
+- Top Verizon wireless sales performer — highest sales per customer in the country for his store
+- VP of Operations at HG Oil Holdings (Kansas oil producer) — built agentic AI systems for invoice processing, vendor insurance verification, POI certifications, and payment automation
+- Co-founded R Squared AI in June 2025
+
+## Work Experience
+
+### R Squared AI — Chief Product Officer (Jun 2025 – Present)
+- Leads digital presence, brand strategy, go-to-market systems, and client delivery
+- Works across the full lifecycle from shaping platforms and systems to hands-on client deployments
+- Helps turn real operational pain into usable AI systems that fit existing workflows
+
+### Preisser Solutions — Owner/Operator (Apr 2025 – Present)
+- Built custom automation systems, dashboards, reporting flows, and internal tooling
+- Showcased products like a daily email briefing system for executive workflows
+- Owned discovery, system design, implementation, and client communication
+
+### Preisser Media — Founder (Feb 2014 – Feb 2026)
+- Produced social media content across TikTok, Instagram, Facebook, YouTube, and Snapchat
+- Built audience of 300,000+ followers and generated 30M+ views
+- Worked with brands including Amazon, Gains in Bulk, Modern Mammals, New Balance, and Jostens
+
+### Bird Dog Aviation LLC — Student Pilot (Feb 2025 – Aug 2025)
+- Completed flight training while balancing business, sales, and university commitments
+
+### HG Oil — VP Operations / Solutions Engineer (Feb 2025 – Aug 2025)
+- Worked at the intersection of project management, solutions engineering, delegation, and operations
+- Built agentic AI systems that automated invoice processing, vendor insurance, and payments
+- Proved AI could run back-office work end to end — better, faster, and cheaper
+
+### Hansen Hall FHSU — Resident Leader (Aug 2021 – Aug 2025)
+- Served inside FHSU's entrepreneurship-focused Hansen Hall community
+- Sharpened public speaking, business development, and leadership
+
+### Verizon — Technology Sales Representative (Mar 2024 – May 2025)
+- Helped store reach highest sales per customer in the country
+- Broke store's all-time monthly sales record
+- Personally finished among company's top 30 sales reps
+
+### Truss Craft Structural Components — Truss Design Intern (May 2024 – Aug 2024)
+- Designed a new truss that cut lumber costs by 9% on vaulted roof trusses
+- Used structural design software and physics to solve real build problems
+
+### Preisser Farms — Farm Hand (Jun 2021 – Aug 2023)
+- Managed harvest operations, equipment, and labor coordination
+
+### TNM Constructors LLC — Skilled Laborer (May 2013 – Aug 2022)
+- Worked construction from an early age, managing jobsites and subcontractors
+
+### College Works Painting — Door to Door Salesperson (Mar 2022 – Jun 2022)
+- Built resilience through direct sales, handling rejection, and earning attention
+
+## Education
+
+- Fort Hays State University — BS Engineering Design & Technology (Aug 2021 – Dec 2025)
+- Buhler High School — High School Diploma (Aug 2016 – May 2021)
+
+## Projects
+
+1. **BIA** — Hydroelectric animal-saving water filtration system using power generated from pre-existing water pressure to purify water runoff
+2. **R Squared AI** — $1M+ revenue AI consulting firm building agentic AI solutions for businesses
+3. **Preisser Solutions** — Automation company building custom dashboards, workflows, and internal tooling
+4. **Wife Supply Co.** — AI-powered gifting platform synthesizing partner preferences for perfect gift ideas
+5. **SkySprayers** — Autonomous agricultural spray-drone docking station with CAD and full-size prototype
+6. **Yard Inventory Systems** — Live oil field parts and equipment tracking for energy sector operations
+7. **Agentic Back Office Automations** — Automated manual business processes for operational efficiency
+8. **The Iron and Oak Podcast** — Protestant Christian ministry podcast co-founded with Lincoln Myers
+9. **Preisser Media** — 300K+ followers, 30M+ views across social platforms
+10. **CarBubble** — Collapsible protective vehicle shelter concept with multiple working prototypes
+11. **Whole Home CAD Design** — Residential construction designs with innovative layouts
+12. **Custom Jewelry Design** — Bespoke engagement rings designed in Autodesk Inventor and SOLIDWORKS
+13. **AI Submission Engine (Insurance)** — Production document-extraction system for a large enterprise insurance brokerage; classifies broker submission packets, auto-populates Salesforce with dual-model validation, and integrates Salesforce with the Majesco rating engine, cutting processing from hours to minutes (via R Squared AI)
+14. **Forge** — Autonomous, OpenClaw-native pipeline that researches a business, studies the best sites in its industry, then builds and deploys a premium custom website end to end (Preisser Solutions)
+15. **Query Dominance Agent System** — 10-agent, 6-phase system that predicts every query a prospect might run, audits who wins it across Google and AI search, and outputs an executable 90-day plan to take the top result (Preisser Solutions)
+16. **Alpha Matrix** — 6-agent stock-analysis system (Scanner, Sentiment, Quant, Pattern Matcher, Conviction Scorer, Portfolio Strategist) where each agent self-evolves via "soul files" tuned by prediction accuracy
+17. **Customer Reactivation Engine** — Used AI to clean years of scattered dispatch data into clean segments for a regional home-services company, then built the schedule and targeted messaging that re-engaged dormant customers — reactivating 60%+ within six weeks and lifting booking conversion 45%+ (Preisser Solutions)
+18. **Agentic Operations Automation (Oil & Gas)** — Built in-house as VP of Operations: agentic systems for invoice processing, vendor insurance verification, POI certifications, and payment automation (HG Oil)
+
+## Technical Skills
+
+- AI Systems & Agentic AI Architecture
+- Machine Learning
+- Automation & Workflow Design
+- Product Strategy & Go-to-Market
+- Operations Optimization
+- Web Development
+- Prompt Engineering
+- Browser Automation (Playwright)
+- Data Warehouse & Dashboard Systems (Power BI)
+- Structural Design (Mytek, Autodesk Inventor, SOLIDWORKS)
+- Engineering Design & Prototyping
+
+## Achievements
+
+- World CEO Competition Finalist — Collegiate Entrepreneurs' Organization
+- Honorary Award, Faulkner Challenge 2023 — FHSU
+- Epic Challenge 3rd Place — FHSU (Nov 2023)
+- Tenaska Pitch Competition — University of Nebraska-Lincoln (Mar 2023)
+- 1st Place Sigma Nu Tau Entrepreneurship Competition — Jun 2022
+- UMKC BLOCH Entrepreneurship Competition Best Venture — May 2022
+- 2nd Place Faulkner Challenge 2022 — SkySprayers
+- 2nd Place Kansas Startup Entrepreneurship Competition 2021 — SkySprayers
+- 4 Years Hansen Hall Honors Entrepreneurship Hall — FHSU
+- Featured in FHSU Foundation and Hays Post coverage
+
+## Contact
+
+- Email: tylerpreisser@gmail.com
+- LinkedIn: https://www.linkedin.com/in/tyler-preisser-803605233/
+- GitHub: https://github.com/tpreisser
+- Location: Hays, Kansas
+
+## Links
+
+- Website: https://tylerpreisser.com
+- R Squared AI: https://rsquaredai.com
+- Resume PDF: https://tylerpreisser.com/Resume_Tyler_Preisser.pdf

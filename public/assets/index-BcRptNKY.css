@@ -1,1 +1,110 @@
 @import"/fonts.googleapis.com/css2.css";html,body,main,#root{width:100%;height:100%;margin:0;padding:0;-webkit-tap-highlight-color:transparent}html{scroll-behavior:smooth}body{transition:background-color ease .2s,color ease .2s}@media print{.pagebreak{page-break-before:always}}@keyframes float{0%{translate:0 0}50%{translate:0 -10%}to{translate:0 0}}@keyframes blink{0%{opacity:0}50%{opacity:1}to{opacity:0}}@keyframes spin{0%{rotate:0}to{rotate:360deg}}
+
+/* Prevent text selection and editing appearance across the site */
+[class*="MuiTypography"], [class*="MuiChip"], [class*="MuiAvatar"] {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+/* ============================================================
+   TYLER PREISSER — CUSTOM THEME OVERRIDE
+   Shifts the palette from the template's green/teal accent
+   to an electric blue + warm amber scheme matching R² branding
+   ============================================================ */
+
+/* Override Joy UI success palette (main accent) → Electric Blue */
+[data-joy-color-scheme="dark"] {
+  --joy-palette-success-50: #e8f0fe;
+  --joy-palette-success-100: #c4d9fc;
+  --joy-palette-success-200: #8ab4f8;
+  --joy-palette-success-300: #5e9bf5;
+  --joy-palette-success-400: #3b82f6;
+  --joy-palette-success-500: #2563eb;
+  --joy-palette-success-600: #1d4ed8;
+  --joy-palette-success-700: #1e40af;
+  --joy-palette-success-800: #1e3a8a;
+  --joy-palette-success-900: #172554;
+  --joy-palette-success-solidBg: #2563eb;
+  --joy-palette-success-solidHoverBg: #1d4ed8;
+  --joy-palette-success-solidActiveBg: #1e40af;
+  --joy-palette-success-solidColor: #fff;
+  --joy-palette-success-softBg: rgba(37, 99, 235, 0.12);
+  --joy-palette-success-softColor: #60a5fa;
+  --joy-palette-success-softHoverBg: rgba(37, 99, 235, 0.2);
+  --joy-palette-success-outlinedBorder: rgba(37, 99, 235, 0.4);
+  --joy-palette-success-outlinedColor: #60a5fa;
+  --joy-palette-success-plainColor: #60a5fa;
+  --joy-palette-success-mainChannel: 37 99 235;
+
+  /* Warning palette → Warm Amber */
+  --joy-palette-warning-50: #fffbeb;
+  --joy-palette-warning-100: #fef3c7;
+  --joy-palette-warning-200: #fde68a;
+  --joy-palette-warning-300: #fcd34d;
+  --joy-palette-warning-400: #fbbf24;
+  --joy-palette-warning-500: #f59e0b;
+  --joy-palette-warning-600: #d97706;
+  --joy-palette-warning-700: #b45309;
+  --joy-palette-warning-800: #92400e;
+  --joy-palette-warning-900: #78350f;
+  --joy-palette-warning-solidBg: #f59e0b;
+  --joy-palette-warning-solidColor: #000;
+  --joy-palette-warning-softBg: rgba(245, 158, 11, 0.12);
+  --joy-palette-warning-softColor: #fbbf24;
+  --joy-palette-warning-outlinedBorder: rgba(245, 158, 11, 0.4);
+  --joy-palette-warning-outlinedColor: #fbbf24;
+  --joy-palette-warning-plainColor: #fbbf24;
+  --joy-palette-warning-mainChannel: 245 158 11;
+
+  /* Darken the background slightly for more contrast */
+  --joy-palette-background-body: #0c0e14;
+  --joy-palette-background-surface: #13161e;
+  --joy-palette-background-level1: #1a1d28;
+  --joy-palette-background-level2: #22262f;
+  --joy-palette-background-level3: #2a2f3a;
+}
+
+/* Light mode overrides */
+[data-joy-color-scheme="light"] {
+  --joy-palette-success-50: #eff6ff;
+  --joy-palette-success-100: #dbeafe;
+  --joy-palette-success-200: #bfdbfe;
+  --joy-palette-success-300: #93c5fd;
+  --joy-palette-success-400: #60a5fa;
+  --joy-palette-success-500: #2563eb;
+  --joy-palette-success-600: #1d4ed8;
+  --joy-palette-success-700: #1e40af;
+  --joy-palette-success-800: #1e3a8a;
+  --joy-palette-success-900: #172554;
+  --joy-palette-success-solidBg: #2563eb;
+  --joy-palette-success-solidHoverBg: #1d4ed8;
+  --joy-palette-success-solidActiveBg: #1e40af;
+  --joy-palette-success-solidColor: #fff;
+  --joy-palette-success-softBg: rgba(37, 99, 235, 0.08);
+  --joy-palette-success-softColor: #1d4ed8;
+  --joy-palette-success-outlinedBorder: rgba(37, 99, 235, 0.4);
+  --joy-palette-success-outlinedColor: #1d4ed8;
+  --joy-palette-success-plainColor: #2563eb;
+  --joy-palette-success-mainChannel: 37 99 235;
+
+  --joy-palette-warning-500: #f59e0b;
+  --joy-palette-warning-solidBg: #f59e0b;
+  --joy-palette-warning-plainColor: #d97706;
+  --joy-palette-warning-mainChannel: 245 158 11;
+}
+
+/* Neon text glow → blue instead of green */
+@keyframes flicker {
+  0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+    opacity: 1;
+    text-shadow:
+      0 0 1px currentColor,
+      0 0 0.5rem #2563eb,
+      0 0 3rem rgba(37, 99, 235, 0.4);
+  }
+  20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+    opacity: 0.6;
+    text-shadow: none;
+  }
+}

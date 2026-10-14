@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "node scripts/personalize-site.mjs && node scripts/export-resume-pdf.mjs && node scripts/cache-bust-static.mjs",
     "start": "next start",
     "lint": "eslint"
   },

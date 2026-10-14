@@ -1,0 +1,30 @@
+# Tyler Preisser
+
+> Chief Product Officer at R Squared AI. Builder of AI systems, automation tools, and operational infrastructure. Based in Hays, Kansas.
+
+## Overview
+
+Tyler Preisser is a product-minded builder, operator, and inventor. He serves as Chief Product Officer at R Squared AI, an AI consulting and integration firm co-founded with Rich Rivara (CEO) and Will Godfrey (CTO). R Squared AI builds production-grade agentic AI solutions for PE portfolio companies, financial services, and insurance clients. Tyler also founded Preisser Solutions, an automation consulting practice that builds custom dashboards, back-office workflows, and internal tooling.
+
+## Links
+
+- Website: https://tylerpreisser.com
+- LinkedIn: https://www.linkedin.com/in/tyler-preisser-803605233/
+- GitHub: https://github.com/tpreisser
+- R Squared AI: https://rsquaredai.com
+- Resume PDF: https://tylerpreisser.com/Resume_Tyler_Preisser.pdf
+- Email: tylerpreisser@gmail.com
+
+## Pages
+
+- [Home](https://tylerpreisser.com/): Professional profile and portfolio overview
+- [Projects](https://tylerpreisser.com/projects/): 12+ projects including R Squared AI, BIA, SkySprayers, Wife Supply Co
+- [Resume](https://tylerpreisser.com/resume/): Full professional resume with experience, education, achievements
+
+## Expertise
+
+AI Systems, Agentic AI, Automation, Machine Learning, Product Strategy, Operations Optimization, Sales Intelligence, Revenue Operations, Engineering Design, Entrepreneurship
+
+## Education
+
+Fort Hays State University — BS Engineering Design & Technology (2021-2025)

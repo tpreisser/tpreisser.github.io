@@ -1,0 +1,53 @@
+# Tyler Preisser — tylerpreisser.com
+
+User-agent: *
+Allow: /
+Disallow: /_next/
+Disallow: /_vercel/
+
+# Search engine crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# AI search crawlers — welcome
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Block known scraper/spam bots
+User-agent: Bytespider
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+Sitemap: https://tylerpreisser.com/sitemap.xml

@@ -1,0 +1,26 @@
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/Resume_Tyler_Preisser.pdf
+  Cache-Control: public, max-age=0, must-revalidate
+
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/sitemap.xml
+  Cache-Control: public, max-age=3600
+
+/robots.txt
+  Cache-Control: public, max-age=3600
+
+/llms.txt
+  Cache-Control: public, max-age=3600
+
+/llms-full.txt
+  Cache-Control: public, max-age=3600

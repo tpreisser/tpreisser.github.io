@@ -1,4 +1,4 @@
-export function WesleySiteShell() {
+export function TylerSiteShell() {
   return (
     <>
       <noscript>You need to enable JavaScript to run this app.</noscript>
